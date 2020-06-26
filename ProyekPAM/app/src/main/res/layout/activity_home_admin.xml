@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeAdmin"
+    android:background="#a6dcef">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#a6dcef"
+        tools:context=".HomeAdmin">
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="41dp"
+            android:layout_height="43dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="134dp"
+            android:layout_marginBottom="219dp"
+            app:srcCompat="@drawable/tambah" />
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="41dp"
+            android:layout_height="43dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="134dp"
+            android:layout_marginBottom="118dp"
+            app:srcCompat="@drawable/tambah" />
+
+        <View
+            android:id="@+id/grs"
+            android:layout_width="wrap_content"
+            android:layout_height="10dip"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="405dp"
+            android:background="#FF909090" />
+
+        <View
+            android:id="@+id/grs1"
+            android:layout_width="wrap_content"
+            android:layout_height="10dip"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="472dp"
+            android:background="#FF909090" />
+
+        <View
+            android:id="@+id/grs2"
+            android:layout_width="wrap_content"
+            android:layout_height="10dip"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="540dp"
+            android:background="#FF909090" />
+
+        <View
+            android:id="@+id/view9"
+            android:layout_width="wrap_content"
+            android:layout_height="10dip"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="278dp"
+            android:background="#FF909090" />
+
+        <View
+            android:id="@+id/view10"
+            android:layout_width="wrap_content"
+            android:layout_height="10dip"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="191dp"
+            android:background="#FF909090" />
+
+        <View
+            android:id="@+id/view11"
+            android:layout_width="wrap_content"
+            android:layout_height="10dip"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="87dp"
+            android:background="#FF909090" />
+
+        <TextView
+            android:id="@+id/judul"
+            android:layout_width="275dp"
+            android:layout_height="34dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="573dp"
+            android:text="DAFTAR RESTORAN"
+            android:textColor="#f2aaaa"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/nc4"
+            android:layout_width="275dp"
+            android:layout_height="34dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="48dp"
+            android:layout_marginBottom="319dp"
+            android:text="DAFTAR DRIVER"
+            android:textColor="#f2aaaa"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/r2"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="255dp"
+            android:layout_marginBottom="499dp"
+            android:text="RESTORAN 1"
+            android:textColor="#e36387"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/nc5"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="255dp"
+            android:layout_marginBottom="230dp"
+            android:text="DRIVER 1"
+            android:textColor="#e36387"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/nc6"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="261dp"
+            android:layout_marginBottom="134dp"
+            android:text="DRIVER 2"
+            android:textColor="#e36387"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/R1"
+            android:layout_width="139dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="261dp"
+            android:layout_marginBottom="437dp"
+            android:text="RESTORAN 2"
+            android:textColor="#e36387"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ddf3f5"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:paddingLeft="11dp"
+                android:paddingRight="10dp"
+                android:src="@drawable/logo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Pesan Antar Makanan"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="30dp"
+                android:src="@drawable/profil" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="41dp"
+            android:layout_height="43dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="136dp"
+            android:layout_marginBottom="492dp"
+            app:srcCompat="@drawable/tambah" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="41dp"
+            android:layout_height="43dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="133dp"
+            android:layout_marginBottom="425dp"
+            app:srcCompat="@drawable/tambah" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="41dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="69dp"
+            android:layout_marginBottom="495dp"
+            app:srcCompat="@drawable/edit" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="41dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="81dp"
+            android:layout_marginBottom="223dp"
+            app:srcCompat="@drawable/edit" />
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="41dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="81dp"
+            android:layout_marginBottom="121dp"
+            app:srcCompat="@drawable/edit" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="41dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="69dp"
+            android:layout_marginBottom="427dp"
+            app:srcCompat="@drawable/edit" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="41dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="493dp"
+            app:srcCompat="@drawable/hapus" />
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="41dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="221dp"
+            app:srcCompat="@drawable/hapus" />
+
+        <ImageView
+            android:id="@+id/imageView22"
+            android:layout_width="41dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="17dp"
+            android:layout_marginBottom="127dp"
+            app:srcCompat="@drawable/hapus" />
+
+        <ImageView
+            android:id="@+id/imageView21"
+            android:layout_width="41dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="493dp"
+            app:srcCompat="@drawable/hapus" />
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="41dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="419dp"
+            app:srcCompat="@drawable/hapus" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="360dp"
+            android:text="Lainnya" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="36dp"
+            android:text="Lainnya" />
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/view8"
+        android:layout_width="wrap_content"
+        android:layout_height="10dip"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="405dp"
+        android:background="#FF909090" />
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="wrap_content"
+        android:layout_height="10dip"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="405dp"
+        android:background="#FF909090" />
+
+    <View
+        android:id="@+id/view7"
+        android:layout_width="wrap_content"
+        android:layout_height="10dip"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="540dp"
+        android:background="#FF909090" />
+
+    <TextView
+        android:id="@+id/nc"
+        android:layout_width="275dp"
+        android:layout_height="34dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="573dp"
+        android:text="DAFTAR RESTORAN"
+        android:textColor="#f2aaaa"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nc2"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="255dp"
+        android:layout_marginBottom="499dp"
+        android:text="RESTORAN 1"
+        android:textColor="#e36387"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nc3"
+        android:layout_width="139dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="261dp"
+        android:layout_marginBottom="437dp"
+        android:text="RESTORAN 1"
+        android:textColor="#e36387"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ddf3f5"
+        android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:paddingLeft="11dp"
+        android:paddingRight="10dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Pesan Antar Makanan"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="30dp"
+        android:src="@drawable/profil" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/add"
+        android:layout_width="41dp"
+        android:layout_height="43dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="136dp"
+        android:layout_marginBottom="492dp"
+        app:srcCompat="@drawable/tambah" />
+
+    <ImageView
+        android:id="@+id/edt"
+        android:layout_width="41dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="69dp"
+        android:layout_marginBottom="495dp"
+        app:srcCompat="@drawable/edit" />
+
+    <ImageView
+        android:id="@+id/hps"
+        android:layout_width="41dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="493dp"
+        app:srcCompat="@drawable/hapus" />
+</RelativeLayout>

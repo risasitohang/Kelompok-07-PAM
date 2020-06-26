@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#a6dcef">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#ddf3f5">
+        <ImageView
+            android:layout_width="100dp"
+            android:paddingLeft="11dp"
+            android:paddingRight="10dp"
+            android:layout_height="100dp"
+            android:src="@drawable/logo"/>
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Pesan Antar Makanan"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="30dp"
+            android:src="@drawable/profil"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="10dip"
+        android:background="#FF909090" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text=""
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+    <TextView
+        android:layout_width="310dp"
+        android:layout_height="61dp"
+        android:layout_gravity="center"
+        android:paddingLeft="8dp"
+        android:paddingRight="10dp"
+        android:text="Apa Yang Ingin Kamu Makan?"
+        android:textSize="20sp" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="10dip"
+        android:background="#FF909090" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text=""/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginLeft="20dp"
+            android:text="Rekomendasi Makanan Populer"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+
+            android:text="Lihat Semua"
+            android:layout_marginLeft="80dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/image10"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/makanan1"/>
+
+        <ImageView
+            android:id="@+id/image11"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/makanan2"/>
+
+        <ImageView
+            android:id="@+id/image12"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/makanan3" />
+
+        <ImageView
+            android:id="@+id/image13"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/makanan4" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="10dip"
+        android:background="#FF909090" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text=""/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginLeft="20dp"
+            android:text="Rekomendasi Restoran Populer"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+
+            android:text="Lihat Semua"
+            android:layout_marginLeft="80dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/image14"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/restoran1" />
+
+        <ImageView
+            android:id="@+id/image15"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/restoran3" />
+
+        <ImageView
+            android:id="@+id/image16"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/restoran2" />
+
+        <ImageView
+            android:id="@+id/image17"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/restoran4" />
+
+    </LinearLayout>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="10dip"
+        android:background="#FF909090" />
+</LinearLayout>

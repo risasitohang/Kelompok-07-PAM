@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeDriver"
+    android:background="#a6dcef">>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#a6dcef"
+        tools:context=".HomeDriver">
+        <View
+            android:id="@+id/view4"
+            android:layout_width="wrap_content"
+            android:layout_height="10dip"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="254dp"
+            android:background="#FF909090" />
+
+        <View
+            android:id="@+id/view6"
+            android:layout_width="wrap_content"
+            android:layout_height="10dip"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="522dp"
+            android:background="#FF909090" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ddf3f5"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:paddingLeft="11dp"
+                android:paddingRight="10dp"
+                android:src="@drawable/logo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Pesan Antar Makanan"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="30dp"
+                android:src="@drawable/profil" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="27dp"
+            android:layout_marginBottom="382dp"
+            android:text="Ambil" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="27dp"
+            android:layout_marginBottom="305dp"
+            android:text="Ambil" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="17dp"
+            android:layout_marginBottom="67dp"
+            android:text="EXIT"
+            android:background="#e7305b"/>
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="275dp"
+            android:layout_height="34dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="127dp"
+            android:layout_marginBottom="385dp"
+            android:text="Nama Consumer"
+            android:textColor="#e36387"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="275dp"
+            android:layout_height="34dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="128dp"
+            android:layout_marginBottom="305dp"
+            android:text="Nama Consumer"
+            android:textColor="#e36387"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="275dp"
+            android:layout_height="34dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="121dp"
+            android:layout_marginBottom="568dp"
+            android:text="DAFTAR PESANAN"
+            android:textColor="#e36387"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="85dp"
+            android:layout_height="59dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="551dp"
+            app:srcCompat="@drawable/notif" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#ddf3f5">
+        <ImageView
+            android:layout_width="100dp"
+            android:paddingLeft="11dp"
+            android:paddingRight="10dp"
+            android:layout_height="100dp"
+            android:src="@drawable/logo"/>
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Pesan Antar Makanan"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="30dp"
+            android:src="@drawable/profil"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="466dp"
+        android:text="Ambil" />
+
+    <TextView
+        android:id="@+id/nc1"
+        android:layout_width="275dp"
+        android:layout_height="34dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="129dp"
+        android:layout_marginBottom="465dp"
+        android:text="Nama Consumer"
+        android:textColor="#e36387"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

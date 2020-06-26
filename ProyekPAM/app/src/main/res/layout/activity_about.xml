@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About"
+    android:background="#008B8B">
+
+    <ImageView
+        android:id="@+id/margrieta"
+        android:layout_width="168dp"
+        android:layout_height="133dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="483dp"
+        android:src="@drawable/margrieta" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/m1"
+        android:layout_below="@id/margrieta"
+        android:text="Nama : Margrieta Sidabutar"
+        android:textSize="40dp"
+        android:textColor="#FFFFFF">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="190dp"
+        android:layout_height="25dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="589dp"
+        android:text="Nama : Margrieta Sidabutar"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="#00FFFF"/>
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="190dp"
+        android:layout_height="25dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="216dp"
+        android:layout_marginBottom="425dp"
+        android:text="Nama : Faustine Ompusunggu"
+        android:textColor="#00FFFF"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="190dp"
+        android:layout_height="25dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="294dp"
+        android:text="Nama : Medianto Saragih"
+        android:textStyle="bold"
+        android:textColor="#00FFFF"/>
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="190dp"
+        android:layout_height="25dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="257dp"
+        android:text="NIM : 11418048" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="190dp"
+        android:layout_height="25dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="194dp"
+        android:layout_marginBottom="135dp"
+        android:text="Nama : Surtina Pardede"
+        android:textColor="#00FFFF"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="114dp"
+        android:layout_marginBottom="552dp"
+        android:text="NIM : 11418005" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="306dp"
+        android:layout_marginBottom="393dp"
+        android:text="NIM : 11418034" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="284dp"
+        android:layout_marginBottom="104dp"
+        android:text="NIM : 11418048" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="163dp"
+        android:layout_height="105dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-3dp"
+        android:layout_marginBottom="353dp"
+        app:srcCompat="@drawable/faustine" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="102dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="242dp"
+        android:layout_marginBottom="224dp"
+        app:srcCompat="@drawable/medianto" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="167dp"
+        android:layout_height="142dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="17dp"
+        app:srcCompat="@drawable/surtina" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="118dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="142dp"
+        android:layout_marginBottom="675dp"
+        android:text="About US"
+        android:textSize="25dp"
+        android:background="#6495ED"
+        android:textStyle="bold"/>
+</RelativeLayout>
